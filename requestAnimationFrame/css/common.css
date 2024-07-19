@@ -1,0 +1,44 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html,
+body {
+	height: 100%;
+}
+#wrap {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	margin: auto;
+}
+[class^='img'] {
+	position: absolute;
+	width: 300px;
+	left: 50%;
+	bottom: 0;
+}
+.img_women {
+	margin-left: -20px;
+}
+.img_hat {
+	width: 120px;
+	margin-left: -150px;
+}
+[class^='ico'] {
+	width: 200px;
+	position: absolute;
+	left: 50%;
+	bottom: 0;
+}
+.ico-cat {
+	margin-left: -50px;
+}
+.value {
+	margin-top: -5rem;
+	font-size: 7rem;
+	font-weight: 600;
+	text-align: center;
+	color: rgba(212, 176, 128, 0.664);
+}
